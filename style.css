@@ -29,3 +29,21 @@ body {
     border: 2px solid black;
   }
 }
+
+@media (orientation: landscape) {
+  body {
+    background-color: blueviolet;
+  }
+  .container {
+    display: flex;
+  }
+  .box {
+    background-color: aqua;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background-color: rgb(61, 61, 150);
+  }
+}
