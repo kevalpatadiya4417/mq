@@ -72,12 +72,24 @@ body {
   }
 } */
 
-@media (min-width: 576px) and (max-width: 768px) {
+/* @media (min-width: 576px) and (max-width: 768px) {
   body {
     background-color: yellow;
   }
   .box {
     border: 2px solid blue;
     background-color: crimson8;
+  }
+} */
+
+@media print and (min-width: 400px) {
+  body {
+    background-color: green;
+  }
+  #box-2 {
+    background-color: aqua;
+  }
+  .box {
+    border: 3px solid blue;
   }
 }
