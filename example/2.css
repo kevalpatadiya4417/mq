@@ -1,0 +1,63 @@
+/* mobile first approach  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  color: black;
+}
+
+.logo {
+  font-size: 10rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: red;
+}
+
+.logo {
+  font-size: 10rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: red;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: blue;
+    color: black;
+  }
+}
+
+@media (max-width: 998px) {
+  body {
+    background-color: green;
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: grey;
+    color: black;
+  }
+}
